@@ -1,0 +1,12 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.DS_Store
+
+# Source media originals (processed copies live in public/assets/)
+*.mov
+image0.jpeg
+image1.jpeg
+image2.jpeg
+Screenshot*.png

@@ -1,0 +1,13 @@
+{
+  "name": "l-jackson",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Laila Jackson Tigers dance team fundraiser site",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.34.0"
+  }
+}

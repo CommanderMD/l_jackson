@@ -1,0 +1,13 @@
+{
+  // Cloudflare Workers config — Laila Jackson Tigers Dance Team fundraiser
+  // Dev URL: https://l-jackson.<your-account-subdomain>.workers.dev
+  // (Worker names can't contain underscores, so the worker is "l-jackson"; GitHub repo is "l_jackson".)
+  "name": "l-jackson",
+  "compatibility_date": "2026-06-11",
+  "assets": {
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
