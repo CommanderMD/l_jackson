@@ -1,7 +1,9 @@
 # Laila Jackson — Tigers Dance Team Fundraiser (l_jackson)
 
-One-page fundraising site for Laila Jackson's 2026–2027 Tigers dance team season
-(competition travel & fees). Hosted on Cloudflare Workers (static assets).
+One-page fundraising site for Laila Jackson's 2026–2027 Arlington Middle School
+Tigers dance team season — covering travel, uniforms, and monthly fees across
+regionals (Memphis), state (Knoxville), and nationals (Florida). Hosted on
+Cloudflare Workers (static assets).
 
 **Dev URL (after deploy):** `https://l-jackson.<your-account-subdomain>.workers.dev`
 (Worker name is `l-jackson` — Cloudflare doesn't allow underscores; GitHub repo is `l_jackson`.)

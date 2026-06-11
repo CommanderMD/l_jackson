@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Support Laila Jackson — Tigers Dance Team 2026–2027 Fundraiser</title>
-<meta name="description" content="Help send Laila Jackson and the Tigers dance team to competition! Donate via Zelle or Apple Pay to support travel and competition fees for the 2026–2027 season.">
-<meta property="og:title" content="Support Laila Jackson — Tigers Dance Team Fundraiser">
-<meta property="og:description" content="Help fund competition travel & fees for the 2026–2027 season.">
+<meta name="description" content="Help send Laila Jackson and the Arlington Middle School Tigers dance team to regionals in Memphis, state in Knoxville, and nationals in Florida! Donate via Zelle or Apple Pay to cover travel, uniforms, and monthly fees for the 2026–2027 season.">
+<meta property="og:title" content="Support Laila Jackson — Arlington Middle School Tigers Dance Team">
+<meta property="og:description" content="Help fund travel, uniforms & monthly fees — from Memphis regionals to Florida nationals — for the 2026–2027 season.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,6 +101,18 @@
   footer p{color:var(--muted);font-size:.9rem}
   footer .credit{font-size:.72rem;color:#6675a0;margin-top:.7rem}
 
+  /* Journey */
+  .journey{background:var(--navy-deep)}
+  .stops{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+  @media(max-width:760px){.stops{grid-template-columns:1fr}}
+  .stop{background:var(--navy-2);border:1px solid rgba(201,162,74,.3);border-radius:var(--radius);padding:1.7rem 1.4rem;text-align:center}
+  .stop .tier{font-family:'Oswald',sans-serif;letter-spacing:.16em;text-transform:uppercase;font-size:.78rem;color:var(--gold-bright);margin-bottom:.5rem}
+  .stop .place{font-family:'Oswald',sans-serif;font-size:1.6rem;color:#fff;text-transform:uppercase}
+  .stop .pin{color:var(--muted);font-size:.88rem;margin-top:.35rem;letter-spacing:.02em}
+  .covers{display:flex;justify-content:center;gap:.8rem;flex-wrap:wrap;margin-top:2.1rem}
+  .cover{display:inline-flex;align-items:center;gap:.45rem;border:1px solid rgba(201,162,74,.4);border-radius:999px;padding:.55rem 1.15rem;color:var(--ink);font-size:.92rem}
+  .cover b{color:var(--gold-bright);font-family:'Oswald',sans-serif;letter-spacing:.04em}
+
   .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease}
   .reveal.in{opacity:1;transform:none}
 </style>
@@ -112,9 +124,9 @@
   <div class="bg"></div>
   <div class="scrim"></div>
   <div class="hero-inner">
-    <span class="eyebrow">Tigers Dance Team &middot; 2026&ndash;2027</span>
+    <span class="eyebrow">Arlington Middle School &middot; Tigers Dance Team &middot; 2026&ndash;2027</span>
     <h1>Send <span>Laila</span> to the<br>Competition Floor</h1>
-    <p class="sub">Laila Jackson has earned her spot with the Tigers dance team — help cover competition travel and entry fees so she can shine all season long. Every dollar counts.</p>
+    <p class="sub">Laila Jackson has earned her spot with the Arlington Middle School Tigers dance team — and this season takes them to regionals in Memphis, state in Knoxville, and nationals in Florida. Help cover travel, uniforms, and monthly fees so she can shine all season long. Every dollar counts.</p>
     <div class="actions">
       <a class="btn btn-gold" href="#donate">Donate Now</a>
       <a class="btn btn-line" href="#story">Her Story</a>
@@ -143,9 +155,42 @@
     <div class="photo"><img src="/assets/photo-1.jpg" alt="Laila Jackson holding a competition trophy"></div>
     <div>
       <h2>Meet <span>Laila</span></h2>
-      <p>Laila is a dedicated member of the Tigers dance team, pouring her heart into every practice, routine, and game-day performance. She's already bringing home trophies — and the 2026–2027 competition season is her biggest yet.</p>
-      <p>Competition season means travel, entry fees, and the costs that come with chasing a championship. Your support helps Laila and her teammates get on the floor and compete with everything they've got.</p>
+      <p>Laila is a dedicated member of the Arlington Middle School Tigers dance team, pouring her heart into every practice, routine, and game-day performance. She's already bringing home trophies — and the 2026–2027 competition season is her biggest yet.</p>
+      <p>This year the team competes at regionals in Memphis, state in Knoxville, and nationals in Florida — which means travel, uniforms, and monthly fees all season long. Your support helps Laila and her teammates get on the floor and compete with everything they've got.</p>
       <a class="btn btn-gold" href="#donate">Chip In Today</a>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="journey reveal" id="journey">
+  <div class="wrap">
+    <div class="head">
+      <h2>The Road to <span>Nationals</span></h2>
+      <p>One season, three stages — Laila and the Arlington Middle School Tigers are competing all the way to the national floor.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="stops">
+      <div class="stop">
+        <div class="tier">Regionals</div>
+        <div class="place">Memphis</div>
+        <div class="pin">Tennessee &middot; Hometown</div>
+      </div>
+      <div class="stop">
+        <div class="tier">State</div>
+        <div class="place">Knoxville</div>
+        <div class="pin">Tennessee</div>
+      </div>
+      <div class="stop">
+        <div class="tier">Nationals</div>
+        <div class="place">Florida</div>
+        <div class="pin">National Championship</div>
+      </div>
+    </div>
+    <div class="covers">
+      <span class="cover"><b>Travel</b> to every competition</span>
+      <span class="cover"><b>Uniforms</b> for the team</span>
+      <span class="cover"><b>Monthly fees</b> all season</span>
     </div>
   </div>
 </section>
